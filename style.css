@@ -14,8 +14,10 @@ body {
 }
 
 p {
-    color:deeppink;
-    background-color:lavender;
+    /*border-style: solid dashed;*/
+    border-style: solid hidden solid dashed;
+    color: deeppink;
+    background-color: lavender;
     /*display: inline;*/
 }
 /*
@@ -43,6 +45,8 @@ span {
 }
 
 div {
+    border-left-style: solid;
+    border-width: thick;
     background-color: mediumseagreen;
     text-align: justify;
     width: 400px;
@@ -50,6 +54,8 @@ div {
 }
 
 div.menu_linki {
+    /*border-top-color: #2E2E2E;*/
+    border-top-style: solid;
     background-color: mediumseagreen;
     text-align: justify;
     width: 200px;
@@ -111,4 +117,8 @@ div.example {
     font-style: italic;
     font-weight: bold;
     font-variant: small-caps;
+}
+
+div.example2 {
+    border-top-style: dotted; /*dashed, dotted*/
 }
