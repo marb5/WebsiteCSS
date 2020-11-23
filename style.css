@@ -137,3 +137,14 @@ table.table1 td {
     text-align: left;
     vertical-align: top;
 }
+
+ul {
+    color:deeppink;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+ol {
+    color: deeppink;
+    list-style-type: decimal-leading-zero;
+}
