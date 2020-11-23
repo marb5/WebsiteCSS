@@ -1,4 +1,20 @@
-﻿p, b
+﻿p
 {
     color:deeppink;
+}
+/*
+.niezwykly /*   *.niezwykly  */           /*zmienia wszystko klasy niezwykly
+{
+    color:green;
+}*/
+
+
+p.niezwykly, b.niezwykly
+{
+    color:green;
+}
+
+h1#nazwa1
+{
+    color:darkorange
 }
