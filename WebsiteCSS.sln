@@ -6,15 +6,25 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebsiteCSS", "WebsiteCSS", "{4C2A9318-AA19-4B49-98D7-4E8FF74F33B1}"
 	ProjectSection(SolutionItems) = preProject
 		index.html = index.html
+		images\programowanie_kodowanie-1024x724.jpg = images\programowanie_kodowanie-1024x724.jpg
 		style.css = style.css
 		subpage.html = subpage.html
 		subpage2.html = subpage2.html
 		template.html = template.html
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{164F987A-C342-48CA-8F64-BBFD62A8FF2C}"
+	ProjectSection(SolutionItems) = preProject
+		images\obrazek1.jpg = images\obrazek1.jpg
+		images\programowanie_kodowanie-1024x724.jpg = images\programowanie_kodowanie-1024x724.jpg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{164F987A-C342-48CA-8F64-BBFD62A8FF2C} = {4C2A9318-AA19-4B49-98D7-4E8FF74F33B1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0145312F-4C28-4C5D-99DA-729F154FD29C}

@@ -5,6 +5,12 @@
 
 body {
     font-size: 16px;
+    background-color: #D3D3D3;
+    background-image: url('images/obrazek1.jpg');
+    background-size: 100%;
+    background-position: 50% 0%;
+    background-attachment: scroll;
+    background-repeat: repeat-y;
 }
 
 p {
@@ -74,6 +80,29 @@ div.test {
     /*
         pt, em, px, %, in, cm, mm, etc.
     */
+}
+
+div.test2 {
+    font-size: 30px;
+    color: white;
+    margin: auto;
+    text-decoration: overline underline;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 150%;
+    text-indent: 0px;
+    word-spacing: 1em;
+    letter-spacing: 0.05em;
+
+    background-image: url('images/programowanie_kodowanie-1024x724.jpg');
+    background-size: 100%;
+    background-position: 50% 0%;
+    background-attachment: scroll;
+    background-repeat: repeat-y;
+    /*white-space: nowrap;*/
+    /*
+    pt, em, px, %, in, cm, mm, etc.
+*/
 }
 
 div.example {
