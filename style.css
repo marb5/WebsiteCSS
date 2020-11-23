@@ -5,6 +5,9 @@
 
 body {
     font-size: 16px;
+    /*margin: 0px;*/
+    padding: 0px;
+
     background-color: #D3D3D3;
     background-image: url('images/obrazek1.jpg');
     background-size: 100%;
@@ -147,4 +150,8 @@ ul {
 ol {
     color: deeppink;
     list-style-type: decimal-leading-zero;
+}
+
+.cursor_change {
+    cursor: pointer;
 }
