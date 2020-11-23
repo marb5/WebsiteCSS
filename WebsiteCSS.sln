@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebsiteCSS", "WebsiteCSS", 
 	ProjectSection(SolutionItems) = preProject
 		index.html = index.html
 		style.css = style.css
+		subpage.html = subpage.html
+		subpage2.html = subpage2.html
 		template.html = template.html
 	EndProjectSection
 EndProject

@@ -35,3 +35,19 @@ div {
     text-align: justify;
     width: 400px;
 }
+
+div.menu_linki {
+    background-color: mediumseagreen;
+    text-align: justify;
+    width: 200px;
+}
+
+div.menu_linki a:link, div.menu_linki a:visited {
+    color:saddlebrown;
+    text-decoration: none;
+}
+
+div.menu_linki a:hover, div.menu_linki a:active {
+    color:black;
+    background-color:white;
+}
