@@ -122,3 +122,18 @@ div.example {
 div.example2 {
     border-top-style: dotted; /*dashed, dotted*/
 }
+
+table.table1 {
+    width: 100%;
+    height: 500px;
+    border: 1px ridge deeppink;
+    border-collapse: collapse;
+}
+
+table.table1 td {
+    border: 1px ridge hotpink;
+    padding: 50px;
+    color:ghostwhite;
+    text-align: left;
+    vertical-align: top;
+}
