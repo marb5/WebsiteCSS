@@ -1,6 +1,8 @@
 ﻿p
 {
     color:deeppink;
+    background-color:lavender;
+    /*display: inline;*/
 }
 /*
 .niezwykly /*   *.niezwykly  */           /*zmienia wszystko klasy niezwykly
@@ -21,4 +23,15 @@ h1#nazwa1
 
 h1#nazwa2 {
     color:mediumvioletred;
+}
+
+span {
+    background-color:lightseagreen;
+    /* text-align: justify; span isn't block so doesn't work */
+}
+
+div {
+    background-color:mediumseagreen;
+    text-align: justify;
+    width: 400px;
 }
