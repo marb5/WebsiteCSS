@@ -16,5 +16,9 @@ p.niezwykly, b.niezwykly
 
 h1#nazwa1
 {
-    color:darkorange
+    color:darkorange;
+}
+
+h1#nazwa2 {
+    color:mediumvioletred;
 }
