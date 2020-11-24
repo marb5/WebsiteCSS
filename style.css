@@ -5,7 +5,7 @@
 
 body {
     font-size: 16px;
-    /*margin: 0px;*/
+    margin: 5%;
     padding: 0px;
 
     background-color: #D3D3D3;
@@ -21,6 +21,8 @@ p {
     border-style: solid hidden solid dashed;
     color: deeppink;
     background-color: lavender;
+    width: auto;
+    margin: 10px 25%;
     /*display: inline;*/
 }
 /*
@@ -32,6 +34,8 @@ p {
 
 p.niezwykly, b.niezwykly {
     color:green;
+    width: auto;
+    margin: 10px 25%;
 }
 
 h1#nazwa1 {
@@ -41,19 +45,22 @@ h1#nazwa1 {
 h1#nazwa2 {
     color:mediumvioletred;
 }
-
+/*
 span {
-    background-color:lightseagreen;
+    background-color: lightseagreen;
+    margin: 20px 100px;*/
     /* text-align: justify; span isn't block so doesn't work */
-}
+/*}*/
 
 div {
     border-left-style: solid;
     border-width: thick;
     background-color: mediumseagreen;
     text-align: justify;
-    width: 400px;
+    width: auto;
     text-indent: 20px;
+    padding: 4%;
+    margin: 10px 25%;
 }
 
 div.menu_linki {
@@ -63,6 +70,8 @@ div.menu_linki {
     text-align: justify;
     width: 200px;
     text-indent: 0px;
+    padding: 10px;
+    margin: 50px 0px;
 }
 
 div.menu_linki a:link, div.menu_linki a:visited {
@@ -78,9 +87,10 @@ div.menu_linki a:hover, div.menu_linki a:active {
 div.test {
     font-size: 30px;
     color:maroon;
+    padding: 4%;
     text-decoration: overline underline;
     text-transform: capitalize;
-    text-align: center;
+    text-align: justify;
     line-height: 150%;
     text-indent: 0px;
     word-spacing: 1em;
@@ -94,10 +104,10 @@ div.test {
 div.test2 {
     font-size: 30px;
     color: white;
-    margin: auto;
+    padding: 4%;
     text-decoration: overline underline;
     text-transform: capitalize;
-    text-align: center;
+    text-align: justify;
     line-height: 150%;
     text-indent: 0px;
     word-spacing: 1em;
@@ -120,22 +130,26 @@ div.example {
     font-style: italic;
     font-weight: bold;
     font-variant: small-caps;
+    margin: 10px 25% 0px 25%;
 }
 
 div.example2 {
     border-top-style: dotted; /*dashed, dotted*/
+    margin: 0px 25% 10px 25%;
 }
 
 table.table1 {
-    width: 100%;
+    width: 50%;
+    align-content: center;
     height: 500px;
     border: 1px ridge deeppink;
     border-collapse: collapse;
+    margin: 10px 25%;
 }
 
 table.table1 td {
     border: 1px ridge hotpink;
-    padding: 50px;
+    padding: 4%;
     color:ghostwhite;
     text-align: left;
     vertical-align: top;
@@ -145,19 +159,24 @@ ul {
     color:deeppink;
     list-style-type: square;
     list-style-position: inside;
+    margin: 10px 25%;
 }
 
 ol {
     color: deeppink;
     list-style-type: decimal-leading-zero;
+    margin: 10px 25%;
 }
 
 .cursor_change {
+    background-color: lightseagreen;
     cursor: pointer;
+    margin: 10px 25%;
 }
 
 img {
-    width: 100%;
+    width: 50%;
     opacity: 0.5;
     filter: alpha(opacity = 50);
+    margin: 10px 25%;
 }
