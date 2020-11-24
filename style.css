@@ -5,7 +5,7 @@
 
 body {
     font-size: 16px;
-    margin: 0% 5%;
+    margin: 0px;
     padding: 0px;
 
     background-color: #D3D3D3;
@@ -21,8 +21,10 @@ p {
     border-style: solid hidden solid dashed;
     color: deeppink;
     background-color: lavender;
-    width: auto;
-    margin: 10px 25%;
+    width: 50%;
+    margin: 10px auto;
+    position: relative;
+    top: 0px;
     /*display: inline;*/
 }
 /*
@@ -39,20 +41,16 @@ p.niezwykly, b.niezwykly {
 }
 
 h1#nazwa1 {
-    color:darkorange;
+    color: darkorange;
+    margin: 0% 5%;
     float: left;
 }
 
 h1#nazwa2 {
-    color:mediumvioletred;
+    color: mediumvioletred;
+    margin: 0% 5%;
     float: right;
 }
-/*
-span {
-    background-color: lightseagreen;
-    margin: 20px 100px;*/
-    /* text-align: justify; span isn't block so doesn't work */
-/*}*/
 
 div {
     border-left-style: solid;
@@ -65,6 +63,20 @@ div {
     margin: 10px 25%;
 }
 
+div.news {
+    background-color: lightseagreen;
+    width: auto;
+    margin: 10px 25%;
+    position: relative;
+    /* text-align: justify; span isn't block so doesn't work */
+}
+
+span.date {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+}
+
 div.menu_linki {
     /*border-top-color: #2E2E2E;*/
     border-top-style: solid;
@@ -73,8 +85,10 @@ div.menu_linki {
     width: 200px;
     text-indent: 0px;
     padding: 10px;
-    margin: 0%;
+    margin: 0% 0% 0% 2%;
     clear: left;
+    position: fixed;
+    top: 50px;
 }
 
 div.menu_linki a:link, div.menu_linki a:visited {
